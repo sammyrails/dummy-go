@@ -5,8 +5,10 @@ go 1.23
 require (
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
-	github.com/tracelit/tracelit-go v0.0.0
+	github.com/tracelit-ai/tracelit-go v0.0.0
 )
+
+replace github.com/tracelit-ai/tracelit-go => /Users/sammy/go/src/github.com/samuelwoodcore/projects/tracelit/sdk/golang
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
@@ -47,5 +49,3 @@ require (
 	google.golang.org/grpc v1.71.0 // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 )
-
-replace github.com/tracelit/tracelit-go => ../../sdk/golang

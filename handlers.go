@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	tracelit "github.com/tracelit/tracelit-go"
-	tlmiddleware "github.com/tracelit/tracelit-go/middleware"
+	tracelit "github.com/tracelit-ai/tracelit-go"
+	tlmiddleware "github.com/tracelit-ai/tracelit-go/middleware"
 )
 
 // server groups the dependencies shared across all handlers.

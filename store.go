@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"time"
 
-	tracelit "github.com/tracelit/tracelit-go"
+	tracelit "github.com/tracelit-ai/tracelit-go"
 )
 
 // ErrNotFound is returned when a product cannot be found.

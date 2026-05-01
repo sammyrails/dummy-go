@@ -13,9 +13,9 @@ import (
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
-	tracelit "github.com/tracelit/tracelit-go"
-	"github.com/tracelit/tracelit-go/bridge"
-	tlmiddleware "github.com/tracelit/tracelit-go/middleware"
+	tracelit "github.com/tracelit-ai/tracelit-go"
+	"github.com/tracelit-ai/tracelit-go/bridge"
+	tlmiddleware "github.com/tracelit-ai/tracelit-go/middleware"
 )
 
 func main() {
